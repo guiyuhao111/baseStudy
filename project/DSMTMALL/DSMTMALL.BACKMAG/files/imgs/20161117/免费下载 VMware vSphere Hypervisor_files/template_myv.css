@@ -1,0 +1,166 @@
+#content a,
+#content-right a {
+    text-decoration: none !important;
+    color: #006990;
+}
+#content a:hover,
+#content-right a:hover {
+    text-decoration: none !important;
+    color: #0095d3;
+}
+#header .overlay h2 a {
+    color: #006990 !important;
+}
+a.image img {
+    display: block;
+    border: none;
+}
+a.button {
+    display: block;
+    width: 110px;
+    text-indent: -9999px;
+    overflow: hidden;
+    height: 24px;
+    margin-bottom: 10px;
+}
+a.rss {
+    background: url(/files/images/tpl/rss_14x14.png) bottom right no-repeat;
+    padding: 0px 20px 0 0;
+    float: right;
+    margin-right: 28px;
+    display: none;
+}
+a.openpdf {
+    background: url(//www.vmware.com/files/templates/images/ico-pdf.gif) bottom right no-repeat;
+    padding: 3px 17px 0 0;
+}
+a.openpdf span {
+    *background: url(//www.vmware.com/files/templates/images/ico-pdf.gif) bottom right no-repeat;
+    *padding-left: 17px;
+    *width: 19px;
+}
+a.openpdf:hover span {
+    *text-decoration: none;
+}
+a.openflash {
+    background: url(/files/images/icons/icon_flash.gif) bottom right no-repeat;
+    padding: 3px 19px 0 0;
+}
+a.roll {
+    display: block;
+    width: 11px;
+    height: 11px;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: #FEFEFE url(/files/images/tpl/button-roll.gif) no-repeat;
+}
+a.call {
+    background: url(/files/images/tpl/button-call.gif) no-repeat;
+    height: 21px;
+}
+a.demo {
+    background: transparent url(/files/images/fce/demo.gif) bottom right no-repeat;
+    padding: 3px 19px 0 0;
+}
+a.openpopup {
+    background: url(/files/images/icons/icon_popup_a.gif) bottom right no-repeat;
+    padding: 3px 19px 0 0;
+}
+a.video {
+    background: url(/files/images/icons/icon_video.gif) right 4px no-repeat;
+    padding: 0px 19px 0 0;
+}
+a.audio {
+    background: url(/files/images/icons/icon_audio.gif) right 4px no-repeat;
+    padding: 0px 16px 0 0;
+}
+a.download_vsph_trial {
+    background: url(/files/images/buttons/btn_vsph-downloadtrial.gif) no-repeat;
+}
+a.visit {
+    background: url(/files/images/buttons/btn_vsp-visitupgrdcenter.gif) no-repeat;
+}
+a.mvp_learnmore {
+    background: url(/files/images/buttons/btn_prd-learn-more.png) no-repeat;
+}
+a.register_webcast {
+    background: url(/files/images/buttons/btn_reg_webcast.gif) no-repeat;
+}
+#content #header h1 {
+    padding: 10px 0 0 !important;
+}
+#content {
+    float: left;
+    margin: 20px 0 0;
+    padding: 0;
+    height: auto !important;
+    background: none repeat scroll 0 0 transparent !important;
+    width: auto !important;
+}
+#content .filter {
+    margin: 15px 0;
+}
+ul.regFields {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+}
+ul.regFields > li {
+    margin: 14px 0;
+}
+#regform .button {
+    margin: 10px 0 20px;
+}
+h4 span {
+    font-size: inherit !important;
+}
+p span,
+p font {
+    font-size: inherit;
+}
+p {
+    line-height: 18px;
+    margin: 0 0 18px;
+    padding: 0;
+}
+h1 {
+    margin: 0 0 18px;
+    font-size: 30px;
+    color: #4d4e53;
+    font-weight: normal;
+}
+h3 {
+    margin: 0 0 14px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+h2 {
+    margin: 0 0 16px;
+    font-size: 22px;
+    color: #387C2C;
+    font-weight: normal;
+}
+h4 {
+    margin: 0 0 13px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+}
+h5,
+h6 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+}
+ul.features {
+    margin: 0 0 10px 0;
+    list-style: none;
+    padding: 0;
+}
+ul.features li {
+    padding: 0 0 10px 14px;
+    line-height: 17px;
+    background: url(/files/images/tpl/bullet-features.gif) no-repeat 0 6px;
+}

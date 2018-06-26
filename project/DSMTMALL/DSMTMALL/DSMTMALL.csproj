@@ -1,0 +1,715 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B84E6960-87C7-45A5-93DB-50FEA3ABE153}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DSMTMALL</RootNamespace>
+    <AssemblyName>DSMTMALL</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper">
+      <HintPath>..\DSMTMALL.Core.Common\Lib\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\DSMTMALL.Core.Common\Lib\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>..\..\DSMTKQ\DSMTKQ.Core.Common\Lib\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Common">
+      <HintPath>..\DSMTMALL.Core.Common\Lib\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>..\DSMTMALL.Core.Common\Lib\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\handler\flexslider.css" />
+    <Content Include="css\handler\item.custom_01.css" />
+    <Content Include="css\images\51ipc_buy.png" />
+    <Content Include="css\images\account_bg.jpg" />
+    <Content Include="css\images\ajax-loader.gif" />
+    <Content Include="css\images\arr.png" />
+    <Content Include="css\images\company.png" />
+    <Content Include="css\images\welcome.jpg" />
+    <Content Include="css\jquery.mobile.min.css" />
+    <Content Include="css\jquery.mobile.theme.css" />
+    <Content Include="images\ajax-loader.gif" />
+    <Content Include="images\icons-png\action-black.png" />
+    <Content Include="images\icons-png\action-white.png" />
+    <Content Include="images\icons-png\alert-black.png" />
+    <Content Include="images\icons-png\alert-white.png" />
+    <Content Include="images\icons-png\arrow-d-black.png" />
+    <Content Include="images\icons-png\arrow-d-l-black.png" />
+    <Content Include="images\icons-png\arrow-d-l-white.png" />
+    <Content Include="images\icons-png\arrow-d-r-black.png" />
+    <Content Include="images\icons-png\arrow-d-r-white.png" />
+    <Content Include="images\icons-png\arrow-d-white.png" />
+    <Content Include="images\icons-png\arrow-l-black.png" />
+    <Content Include="images\icons-png\arrow-l-white.png" />
+    <Content Include="images\icons-png\arrow-r-black.png" />
+    <Content Include="images\icons-png\arrow-r-white.png" />
+    <Content Include="images\icons-png\arrow-u-black.png" />
+    <Content Include="images\icons-png\arrow-u-l-black.png" />
+    <Content Include="images\icons-png\arrow-u-l-white.png" />
+    <Content Include="images\icons-png\arrow-u-r-black.png" />
+    <Content Include="images\icons-png\arrow-u-r-white.png" />
+    <Content Include="images\icons-png\arrow-u-white.png" />
+    <Content Include="images\icons-png\audio-black.png" />
+    <Content Include="images\icons-png\audio-white.png" />
+    <Content Include="images\icons-png\back-black.png" />
+    <Content Include="images\icons-png\back-white.png" />
+    <Content Include="images\icons-png\bars-black.png" />
+    <Content Include="images\icons-png\bars-white.png" />
+    <Content Include="images\icons-png\bullets-black.png" />
+    <Content Include="images\icons-png\bullets-white.png" />
+    <Content Include="images\icons-png\calendar-black.png" />
+    <Content Include="images\icons-png\calendar-white.png" />
+    <Content Include="images\icons-png\camera-black.png" />
+    <Content Include="images\icons-png\camera-white.png" />
+    <Content Include="images\icons-png\carat-d-black.png" />
+    <Content Include="images\icons-png\carat-d-white.png" />
+    <Content Include="images\icons-png\carat-l-black.png" />
+    <Content Include="images\icons-png\carat-l-white.png" />
+    <Content Include="images\icons-png\carat-r-black.png" />
+    <Content Include="images\icons-png\carat-r-white.png" />
+    <Content Include="images\icons-png\carat-u-black.png" />
+    <Content Include="images\icons-png\carat-u-white.png" />
+    <Content Include="images\icons-png\check-black.png" />
+    <Content Include="images\icons-png\check-white.png" />
+    <Content Include="images\icons-png\clock-black.png" />
+    <Content Include="images\icons-png\clock-white.png" />
+    <Content Include="images\icons-png\cloud-black.png" />
+    <Content Include="images\icons-png\cloud-white.png" />
+    <Content Include="images\icons-png\comment-black.png" />
+    <Content Include="images\icons-png\comment-white.png" />
+    <Content Include="images\icons-png\delete-black.png" />
+    <Content Include="images\icons-png\delete-white.png" />
+    <Content Include="images\icons-png\edit-black.png" />
+    <Content Include="images\icons-png\edit-white.png" />
+    <Content Include="images\icons-png\edite.png" />
+    <Content Include="images\icons-png\eye-black.png" />
+    <Content Include="images\icons-png\eye-white.png" />
+    <Content Include="images\icons-png\forbidden-black.png" />
+    <Content Include="images\icons-png\forbidden-white.png" />
+    <Content Include="images\icons-png\forward-black.png" />
+    <Content Include="images\icons-png\forward-white.png" />
+    <Content Include="images\icons-png\gear-black.png" />
+    <Content Include="images\icons-png\gear-white.png" />
+    <Content Include="images\icons-png\grid-black.png" />
+    <Content Include="images\icons-png\grid-white.png" />
+    <Content Include="images\icons-png\heart-black.png" />
+    <Content Include="images\icons-png\heart-white.png" />
+    <Content Include="images\icons-png\home-black.png" />
+    <Content Include="images\icons-png\home-white.png" />
+    <Content Include="images\icons-png\info-black.png" />
+    <Content Include="images\icons-png\info-white.png" />
+    <Content Include="images\icons-png\location-black.png" />
+    <Content Include="images\icons-png\location-white.png" />
+    <Content Include="images\icons-png\lock-black.png" />
+    <Content Include="images\icons-png\lock-white.png" />
+    <Content Include="images\icons-png\mail-black.png" />
+    <Content Include="images\icons-png\mail-white.png" />
+    <Content Include="images\icons-png\minus-black.png" />
+    <Content Include="images\icons-png\minus-white.png" />
+    <Content Include="images\icons-png\navigation-black.png" />
+    <Content Include="images\icons-png\navigation-white.png" />
+    <Content Include="images\icons-png\phone-black.png" />
+    <Content Include="images\icons-png\phone-white.png" />
+    <Content Include="images\icons-png\plus-black.png" />
+    <Content Include="images\icons-png\plus-white.png" />
+    <Content Include="images\icons-png\power-black.png" />
+    <Content Include="images\icons-png\power-white.png" />
+    <Content Include="images\icons-png\recycle-black.png" />
+    <Content Include="images\icons-png\recycle-white.png" />
+    <Content Include="images\icons-png\refresh-black.png" />
+    <Content Include="images\icons-png\refresh-white.png" />
+    <Content Include="images\icons-png\search-black.png" />
+    <Content Include="images\icons-png\search-white.png" />
+    <Content Include="images\icons-png\shop-black.png" />
+    <Content Include="images\icons-png\shop-white.png" />
+    <Content Include="images\icons-png\star-black.png" />
+    <Content Include="images\icons-png\star-white.png" />
+    <Content Include="images\icons-png\tag-black.png" />
+    <Content Include="images\icons-png\tag-white.png" />
+    <Content Include="images\icons-png\user-black.png" />
+    <Content Include="images\icons-png\user-white.png" />
+    <Content Include="images\icons-png\video-black.png" />
+    <Content Include="images\icons-png\video-white.png" />
+    <Content Include="images\icons-svg\action-black.svg" />
+    <Content Include="images\icons-svg\action-white.svg" />
+    <Content Include="images\icons-svg\alert-black.svg" />
+    <Content Include="images\icons-svg\alert-white.svg" />
+    <Content Include="images\icons-svg\arrow-d-black.svg" />
+    <Content Include="images\icons-svg\arrow-d-l-black.svg" />
+    <Content Include="images\icons-svg\arrow-d-l-white.svg" />
+    <Content Include="images\icons-svg\arrow-d-r-black.svg" />
+    <Content Include="images\icons-svg\arrow-d-r-white.svg" />
+    <Content Include="images\icons-svg\arrow-d-white.svg" />
+    <Content Include="images\icons-svg\arrow-l-black.svg" />
+    <Content Include="images\icons-svg\arrow-l-white.svg" />
+    <Content Include="images\icons-svg\arrow-r-black.svg" />
+    <Content Include="images\icons-svg\arrow-r-white.svg" />
+    <Content Include="images\icons-svg\arrow-u-black.svg" />
+    <Content Include="images\icons-svg\arrow-u-l-black.svg" />
+    <Content Include="images\icons-svg\arrow-u-l-white.svg" />
+    <Content Include="images\icons-svg\arrow-u-r-black.svg" />
+    <Content Include="images\icons-svg\arrow-u-r-white.svg" />
+    <Content Include="images\icons-svg\arrow-u-white.svg" />
+    <Content Include="images\icons-svg\audio-black.svg" />
+    <Content Include="images\icons-svg\audio-white.svg" />
+    <Content Include="images\icons-svg\back-black.svg" />
+    <Content Include="images\icons-svg\back-white.svg" />
+    <Content Include="images\icons-svg\bars-black.svg" />
+    <Content Include="images\icons-svg\bars-white.svg" />
+    <Content Include="images\icons-svg\bullets-black.svg" />
+    <Content Include="images\icons-svg\bullets-white.svg" />
+    <Content Include="images\icons-svg\calendar-black.svg" />
+    <Content Include="images\icons-svg\calendar-white.svg" />
+    <Content Include="images\icons-svg\camera-black.svg" />
+    <Content Include="images\icons-svg\camera-white.svg" />
+    <Content Include="images\icons-svg\carat-d-black.svg" />
+    <Content Include="images\icons-svg\carat-d-white.svg" />
+    <Content Include="images\icons-svg\carat-l-black.svg" />
+    <Content Include="images\icons-svg\carat-l-white.svg" />
+    <Content Include="images\icons-svg\carat-r-black.svg" />
+    <Content Include="images\icons-svg\carat-r-white.svg" />
+    <Content Include="images\icons-svg\carat-u-black.svg" />
+    <Content Include="images\icons-svg\carat-u-white.svg" />
+    <Content Include="images\icons-svg\check-black.svg" />
+    <Content Include="images\icons-svg\check-white.svg" />
+    <Content Include="images\icons-svg\clock-black.svg" />
+    <Content Include="images\icons-svg\clock-white.svg" />
+    <Content Include="images\icons-svg\cloud-black.svg" />
+    <Content Include="images\icons-svg\cloud-white.svg" />
+    <Content Include="images\icons-svg\comment-black.svg" />
+    <Content Include="images\icons-svg\comment-white.svg" />
+    <Content Include="images\icons-svg\delete-black.svg" />
+    <Content Include="images\icons-svg\delete-white.svg" />
+    <Content Include="images\icons-svg\edit-black.svg" />
+    <Content Include="images\icons-svg\edit-white.svg" />
+    <Content Include="images\icons-svg\eye-black.svg" />
+    <Content Include="images\icons-svg\eye-white.svg" />
+    <Content Include="images\icons-svg\forbidden-black.svg" />
+    <Content Include="images\icons-svg\forbidden-white.svg" />
+    <Content Include="images\icons-svg\forward-black.svg" />
+    <Content Include="images\icons-svg\forward-white.svg" />
+    <Content Include="images\icons-svg\gear-black.svg" />
+    <Content Include="images\icons-svg\gear-white.svg" />
+    <Content Include="images\icons-svg\grid-black.svg" />
+    <Content Include="images\icons-svg\grid-white.svg" />
+    <Content Include="images\icons-svg\heart-black.svg" />
+    <Content Include="images\icons-svg\heart-white.svg" />
+    <Content Include="images\icons-svg\home-black.svg" />
+    <Content Include="images\icons-svg\home-white.svg" />
+    <Content Include="images\icons-svg\info-black.svg" />
+    <Content Include="images\icons-svg\info-white.svg" />
+    <Content Include="images\icons-svg\location-black.svg" />
+    <Content Include="images\icons-svg\location-white.svg" />
+    <Content Include="images\icons-svg\lock-black.svg" />
+    <Content Include="images\icons-svg\lock-white.svg" />
+    <Content Include="images\icons-svg\mail-black.svg" />
+    <Content Include="images\icons-svg\mail-white.svg" />
+    <Content Include="images\icons-svg\minus-black.svg" />
+    <Content Include="images\icons-svg\minus-white.svg" />
+    <Content Include="images\icons-svg\navigation-black.svg" />
+    <Content Include="images\icons-svg\navigation-white.svg" />
+    <Content Include="images\icons-svg\phone-black.svg" />
+    <Content Include="images\icons-svg\phone-white.svg" />
+    <Content Include="images\icons-svg\plus-black.svg" />
+    <Content Include="images\icons-svg\plus-white.svg" />
+    <Content Include="images\icons-svg\power-black.svg" />
+    <Content Include="images\icons-svg\power-white.svg" />
+    <Content Include="images\icons-svg\recycle-black.svg" />
+    <Content Include="images\icons-svg\recycle-white.svg" />
+    <Content Include="images\icons-svg\refresh-black.svg" />
+    <Content Include="images\icons-svg\refresh-white.svg" />
+    <Content Include="images\icons-svg\search-black.svg" />
+    <Content Include="images\icons-svg\search-white.svg" />
+    <Content Include="images\icons-svg\shop-black.svg" />
+    <Content Include="images\icons-svg\shop-white.svg" />
+    <Content Include="images\icons-svg\star-black.svg" />
+    <Content Include="images\icons-svg\star-white.svg" />
+    <Content Include="images\icons-svg\tag-black.svg" />
+    <Content Include="images\icons-svg\tag-white.svg" />
+    <Content Include="images\icons-svg\user-black.svg" />
+    <Content Include="images\icons-svg\user-white.svg" />
+    <Content Include="images\icons-svg\video-black.svg" />
+    <Content Include="images\icons-svg\video-white.svg" />
+    <Content Include="images\web\hpage\cancelsuccess.png" />
+    <Content Include="images\web\hpage\dealsuccess.png" />
+    <Content Include="images\web\hpage\errloader.jpg" />
+    <Content Include="images\web\hpage\errorpage.png" />
+    <Content Include="images\web\hpage\paysuccess.png" />
+    <Content Include="images\web\hpage\reduce.png" />
+    <Content Include="images\web\hpage\add.png" />
+    <Content Include="images\web\hpage\SessionTimeout.png" />
+    <Content Include="images\web\hpage\soldoutRed.png" />
+    <Content Include="images\web\hpage\trashcan.png" />
+    <Content Include="images\web\hpage\cpychoose1.png" />
+    <Content Include="images\web\hpage\user-head.png" />
+    <Content Include="images\web\hpage\payment.png" />
+    <Content Include="images\web\hpage\category_1.png" />
+    <Content Include="images\web\hpage\category_2.png" />
+    <Content Include="images\web\hpage\aftersale.png" />
+    <Content Include="images\web\hpage\error.png" />
+    <Content Include="images\web\hpage\custservice.png" />
+    <Content Include="images\web\hpage\custservice1.png" />
+    <Content Include="images\web\hpage\custservice2.png" />
+    <Content Include="images\web\hpage\myhome1.png" />
+    <Content Include="images\web\hpage\myhome2.png" />
+    <Content Include="images\web\hpage\takegoods.png" />
+    <Content Include="images\web\hpage\leftarr.png" />
+    <Content Include="images\web\hpage\rightarr.png" />
+    <Content Include="images\web\hpage\order.png" />
+    <Content Include="images\web\hpage\cart_1.png" />
+    <Content Include="images\web\hpage\cart_2.png" />
+    <Content Include="images\web\hpage\cpychoose.png" />
+    <Content Include="images\web\hpage\index1.png" />
+    <Content Include="images\web\hpage\index2.png" />
+    <Content Include="images\web\icon-edite.png" />
+    <Content Include="images\web\icon_map.png" />
+    <Content Include="images\web\icon_failure.png" />
+    <Content Include="images\web\icon_success.png" />
+    <Content Include="images\web\Indexlogo.png" />
+    <Content Include="images\web\icon_norecord.png" />
+    <Content Include="images\web\hpage\soldout.png" />
+    <Content Include="images\web\favicon.ico" />
+    <Content Include="js\handler\index.js" />
+    <Content Include="js\handler\iscroll.js" />
+    <Content Include="js\handler\jquery.flexslider-min.js" />
+    <Content Include="js\handler\jquery.min.custom.js" />
+    <Content Include="js\html\category_list.js" />
+    <Content Include="js\html\goods_cart.js" />
+    <Content Include="js\html\goods_list.js" />
+    <Content Include="js\html\goods_show.js" />
+    <Content Include="js\html\homepage.js" />
+    <Content Include="js\html\login\binding.js" />
+    <Content Include="js\html\login\user_home.js" />
+    <Content Include="js\html\mallIndex.js" />
+    <Content Include="js\html\order\order_return.js" />
+    <Content Include="js\html\order_list.js" />
+    <Content Include="js\html\payment\pay_center.js" />
+    <Content Include="js\html\user_address.js" />
+    <Content Include="js\html\user_address_editor.js" />
+    <Content Include="js\html\user_cart.js" />
+    <Content Include="js\html\user_login.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.mobile.min.js" />
+    <Content Include="packages.config" />
+    <Content Include="Service References\XFTAEAPI\DSMTMALL.XFTAEAPI.BackPayAccBalanceEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\XFTAEAPI\DSMTMALL.XFTAEAPI.BackQueryAccBalanceEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\XFTAEAPI\DSMTMALL.XFTAEAPI.BackQueryUserInfoEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\XFTAEAPI\DSMTMALL.XFTAEAPI.PayAccBalanceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\XFTAEAPI\DSMTMALL.XFTAEAPI.QueryAccBalanceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\XFTAEAPI\DSMTMALL.XFTAEAPI.QueryUserInfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\XFTAEAPI\DSMTMALL.XFTAEAPI.BackQueryTradeStatusEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\XFTAEAPI\DSMTMALL.XFTAEAPI.QueryTradeStatusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\XFTAEAPI\DSMTMALL.XFTAEAPI.BackQueryCpyInfoEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\XFTAEAPI\DSMTMALL.XFTAEAPI.QueryCpyInfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="ClassDiagram1.cd" />
+    <None Include="Properties\PublishProfiles\DSMTMALL.pubxml" />
+    <Content Include="Service References\XFTAEAPI\DSMTMALL.XFTAEAPI.BackRefundAccBalanceEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\XFTAEAPI\DSMTMALL.XFTAEAPI.RefundAccBalanceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\XFTAEAPI\DSMTMALL.XFTAEAPI.BackQueryOrderStatusEntity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\XFTAEAPI\DSMTMALL.XFTAEAPI.QueryOrderStatusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\XFTAEAPI\DSMT_TAE_Service.disco" />
+    <None Include="Service References\XFTAEAPI\configuration91.svcinfo" />
+    <None Include="Service References\XFTAEAPI\configuration.svcinfo" />
+    <None Include="Service References\XFTAEAPI\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="web\ajax.aspx" />
+    <Content Include="images\arr.png" />
+    <Content Include="web\login\binding.aspx" />
+    <Content Include="web\login\change_nickname.aspx" />
+    <Content Include="web\login\change_phone.aspx" />
+    <Content Include="web\login\turn_index.aspx" />
+    <Content Include="web\logistical_search.aspx" />
+    <Content Include="web\order\order_return.aspx" />
+    <Content Include="web\order_pay.aspx" />
+    <Content Include="web\category_list.aspx" />
+    <Content Include="web\goods_cart.aspx" />
+    <Content Include="web\goods_list.aspx" />
+    <Content Include="web\goods_show.aspx" />
+    <Content Include="web\index.aspx" />
+    <Content Include="web\mall_Index.aspx" />
+    <Content Include="MyConfig.ini" />
+    <Content Include="web\payment\pay_center.aspx" />
+    <Content Include="web\uc\uc_footer.ascx" />
+    <Content Include="web\uc\uc_header_part.ascx" />
+    <Content Include="web\uc_show.ascx" />
+    <Content Include="web\uc_title.ascx" />
+    <Content Include="web\user_address.aspx" />
+    <Content Include="web\user_cart.aspx" />
+    <Content Include="web\user_address_editor.aspx" />
+    <Content Include="web\user_home.aspx" />
+    <Content Include="web\user_homepage.aspx" />
+    <Content Include="web\user_login.aspx" />
+    <Content Include="web\user_order.aspx" />
+    <None Include="Properties\PublishProfiles\MALL.pubxml" />
+    <None Include="Service References\XFTAEAPI\DSMT_TAE_Service.wsdl" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyPublic\DdlHelper.cs" />
+    <Compile Include="MyPublic\SQLEntityHelper.cs" />
+    <Compile Include="MyPublic\TryCatchErrHelper.cs" />
+    <Compile Include="MyPublic\WebAjaxHelper.cs" />
+    <Compile Include="MyPublic\WebLoginHelper.cs" />
+    <Compile Include="MyPublic\WebToolHelper.cs" />
+    <Compile Include="MyPublic\WeChatAPI.cs" />
+    <Compile Include="MyPublic\XFServiceAPI.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\XFTAEAPI\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="web\ajax.aspx.cs">
+      <DependentUpon>ajax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\ajax.aspx.designer.cs">
+      <DependentUpon>ajax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\login\binding.aspx.cs">
+      <DependentUpon>binding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\login\binding.aspx.designer.cs">
+      <DependentUpon>binding.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\login\change_nickname.aspx.cs">
+      <DependentUpon>change_nickname.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\login\change_nickname.aspx.designer.cs">
+      <DependentUpon>change_nickname.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\login\change_phone.aspx.cs">
+      <DependentUpon>change_phone.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\login\change_phone.aspx.designer.cs">
+      <DependentUpon>change_phone.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\login\turn_index.aspx.cs">
+      <DependentUpon>turn_index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\login\turn_index.aspx.designer.cs">
+      <DependentUpon>turn_index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\logistical_search.aspx.cs">
+      <DependentUpon>logistical_search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\logistical_search.aspx.designer.cs">
+      <DependentUpon>logistical_search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\order\order_return.aspx.cs">
+      <DependentUpon>order_return.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\order\order_return.aspx.designer.cs">
+      <DependentUpon>order_return.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\order_pay.aspx.cs">
+      <DependentUpon>order_pay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\order_pay.aspx.designer.cs">
+      <DependentUpon>order_pay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\category_list.aspx.cs">
+      <DependentUpon>category_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\category_list.aspx.designer.cs">
+      <DependentUpon>category_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\goods_cart.aspx.cs">
+      <DependentUpon>goods_cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\goods_cart.aspx.designer.cs">
+      <DependentUpon>goods_cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\goods_list.aspx.cs">
+      <DependentUpon>goods_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\goods_list.aspx.designer.cs">
+      <DependentUpon>goods_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\goods_show.aspx.cs">
+      <DependentUpon>goods_show.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\goods_show.aspx.designer.cs">
+      <DependentUpon>goods_show.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\mall_Index.aspx.cs">
+      <DependentUpon>mall_Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\mall_Index.aspx.designer.cs">
+      <DependentUpon>mall_Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\payment\pay_center.aspx.cs">
+      <DependentUpon>pay_center.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\payment\pay_center.aspx.designer.cs">
+      <DependentUpon>pay_center.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\uc\uc_footer.ascx.cs">
+      <DependentUpon>uc_footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\uc\uc_footer.ascx.designer.cs">
+      <DependentUpon>uc_footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="web\uc\uc_header_part.ascx.cs">
+      <DependentUpon>uc_header_part.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\uc\uc_header_part.ascx.designer.cs">
+      <DependentUpon>uc_header_part.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="web\uc_show.ascx.cs">
+      <DependentUpon>uc_show.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\uc_show.ascx.designer.cs">
+      <DependentUpon>uc_show.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="web\uc_title.ascx.cs">
+      <DependentUpon>uc_title.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\uc_title.ascx.designer.cs">
+      <DependentUpon>uc_title.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="web\user_address.aspx.cs">
+      <DependentUpon>user_address.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\user_address.aspx.designer.cs">
+      <DependentUpon>user_address.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\user_cart.aspx.cs">
+      <DependentUpon>user_cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\user_cart.aspx.designer.cs">
+      <DependentUpon>user_cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\user_address_editor.aspx.cs">
+      <DependentUpon>user_address_editor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\user_address_editor.aspx.designer.cs">
+      <DependentUpon>user_address_editor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\user_home.aspx.cs">
+      <DependentUpon>user_home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\user_home.aspx.designer.cs">
+      <DependentUpon>user_home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\user_homepage.aspx.cs">
+      <DependentUpon>user_homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\user_homepage.aspx.designer.cs">
+      <DependentUpon>user_homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\user_login.aspx.cs">
+      <DependentUpon>user_login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\user_login.aspx.designer.cs">
+      <DependentUpon>user_login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\user_order.aspx.cs">
+      <DependentUpon>user_order.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\user_order.aspx.designer.cs">
+      <DependentUpon>user_order.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DSMTMALL.Core.Common\DSMTMALL.Core.Common.csproj">
+      <Project>{d43e5206-7a2e-459f-8b84-d4bbd00e1e50}</Project>
+      <Name>DSMTMALL.Core.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DSMTMALL.DB.BLL\DSMTMALL.DB.BLL.csproj">
+      <Project>{9a8f2f9f-eadd-40ab-8a5e-4a65b92ecdfa}</Project>
+      <Name>DSMTMALL.DB.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DSMTMALL.DB.Model\DSMTMALL.DB.Model.csproj">
+      <Project>{01c13f4c-964b-4f7d-9cfc-4eef87e52105}</Project>
+      <Name>DSMTMALL.DB.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DSMTMALL.DB.MySQLDAL\DSMTMALL.DB.MySQLDAL.csproj">
+      <Project>{2cee94a1-69ba-45fe-bd64-16abf376ee77}</Project>
+      <Name>DSMTMALL.DB.MySQLDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\XFTAEAPI\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>35638</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:35638/</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost:35638/</IISAppRootUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

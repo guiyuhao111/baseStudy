@@ -1,0 +1,213 @@
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\csc.exe
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\System.Collections.Immutable.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\vbc.exe
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\VBCSCompiler.exe
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\VBCSCompiler.exe.config
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.WebAPI.dll.config
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.WebAPI.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.WebAPI.pdb
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.Core.Common.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.BLL.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.Model.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.MySQLDAL.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\NPOI.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\MySql.Data.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\NPOI.OOXML.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.IDAL.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.DALFactory.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.Core.DBUtility.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\ICSharpCode.SharpZipLib.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\NPOI.OpenXmlFormats.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\NPOI.OpenXml4Net.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\System.Data.SQLite.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.Core.Common.pdb
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.BLL.pdb
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.Model.pdb
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.MySQLDAL.pdb
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.IDAL.pdb
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.DALFactory.pdb
+G:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.Core.DBUtility.pdb
+G:\DSMTMALL\DSMTMALL.WebAPI\obj\Release\DSMTMALL.WebAPI.csprojResolveAssemblyReference.cache
+G:\DSMTMALL\DSMTMALL.WebAPI\obj\Release\DSMTMALL.WebAPI.dll
+G:\DSMTMALL\DSMTMALL.WebAPI\obj\Release\DSMTMALL.WebAPI.pdb
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\csc.exe
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\System.Collections.Immutable.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\vbc.exe
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\VBCSCompiler.exe
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\VBCSCompiler.exe.config
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.WebAPI.dll.config
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.WebAPI.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.WebAPI.pdb
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.Core.Common.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.BLL.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.Model.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.MySQLDAL.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\NPOI.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\MySql.Data.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\NPOI.OOXML.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.IDAL.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.DALFactory.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\Dapper.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\ICSharpCode.SharpZipLib.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\NPOI.OpenXmlFormats.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\NPOI.OpenXml4Net.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.Core.Common.pdb
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.BLL.pdb
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.Model.pdb
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.MySQLDAL.pdb
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.IDAL.pdb
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.DALFactory.pdb
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\obj\Release\DSMTMALL.WebAPI.csprojResolveAssemblyReference.cache
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\obj\Release\DSMTMALL.WebAPI.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\obj\Release\DSMTMALL.WebAPI.pdb
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.pdb
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\csc.exe
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\System.Collections.Immutable.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\vbc.exe
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\VBCSCompiler.exe
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\VBCSCompiler.exe.config
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.WebAPI.dll.config
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.WebAPI.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.WebAPI.pdb
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.Core.Common.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.BLL.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.Model.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.MySQLDAL.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\NPOI.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\MySql.Data.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\NPOI.OOXML.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.IDAL.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.DALFactory.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\Dapper.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\ICSharpCode.SharpZipLib.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\NPOI.OpenXmlFormats.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\NPOI.OpenXml4Net.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.Core.Common.pdb
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.BLL.pdb
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.Model.pdb
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.MySQLDAL.pdb
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.pdb
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.IDAL.pdb
+H:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.DALFactory.pdb
+H:\DSMTMALL\DSMTMALL.WebAPI\obj\Release\DSMTMALL.WebAPI.csprojResolveAssemblyReference.cache
+H:\DSMTMALL\DSMTMALL.WebAPI\obj\Release\DSMTMALL.WebAPI.dll
+H:\DSMTMALL\DSMTMALL.WebAPI\obj\Release\DSMTMALL.WebAPI.pdb
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\csc.exe
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\System.Collections.Immutable.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\vbc.exe
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\VBCSCompiler.exe
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\VBCSCompiler.exe.config
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.WebAPI.dll.config
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.WebAPI.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.WebAPI.pdb
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.Core.Common.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.BLL.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.Model.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.MySQLDAL.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\ServiceStack.Redis.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\ServiceStack.Interfaces.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\NPOI.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\NLog.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\MySql.Data.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\NPOI.OOXML.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.IDAL.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.DALFactory.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\Dapper.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\ServiceStack.Text.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\ICSharpCode.SharpZipLib.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\NPOI.OpenXmlFormats.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\NPOI.OpenXml4Net.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.Core.Common.pdb
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.BLL.pdb
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.Model.pdb
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.MySQLDAL.pdb
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.pdb
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.IDAL.pdb
+E:\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.DALFactory.pdb
+E:\DSMTMALL\DSMTMALL.WebAPI\obj\Release\DSMTMALL.WebAPI.csprojResolveAssemblyReference.cache
+E:\DSMTMALL\DSMTMALL.WebAPI\obj\Release\DSMTMALL.WebAPI.dll
+E:\DSMTMALL\DSMTMALL.WebAPI\obj\Release\DSMTMALL.WebAPI.pdb
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\csc.exe
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\vbc.exe
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.WebAPI.dll.config
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.WebAPI.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.WebAPI.pdb
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.Core.Common.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.BLL.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.Model.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.MySQLDAL.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\ServiceStack.Redis.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\ServiceStack.Interfaces.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\NPOI.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\NLog.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\MySql.Data.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\NPOI.OOXML.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.IDAL.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.DALFactory.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\Dapper.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\ServiceStack.Text.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\NPOI.OpenXmlFormats.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\NPOI.OpenXml4Net.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.Core.Common.pdb
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.BLL.pdb
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.Model.pdb
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.MySQLDAL.pdb
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.pdb
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.IDAL.pdb
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\bin\DSMTMALL.DB.DALFactory.pdb
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\obj\Release\DSMTMALL.WebAPI.csprojResolveAssemblyReference.cache
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\obj\Release\DSMTMALL.WebAPI.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.WebAPI\obj\Release\DSMTMALL.WebAPI.pdb

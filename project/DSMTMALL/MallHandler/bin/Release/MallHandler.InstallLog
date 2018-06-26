@@ -1,0 +1,13 @@
+﻿正在安装程序集“F:\DSMTMALL\MallHandler\bin\Release\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = F:\DSMTMALL\MallHandler\bin\Release\MallHandler.InstallLog
+   assemblypath = F:\DSMTMALL\MallHandler\bin\Release\MallHandler.exe
+正在安装服务 MallService...
+已成功安装服务 MallService。
+正在日志 Application 中创建 EventLog 源 MallService...
+正在提交程序集“F:\DSMTMALL\MallHandler\bin\Release\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = F:\DSMTMALL\MallHandler\bin\Release\MallHandler.InstallLog
+   assemblypath = F:\DSMTMALL\MallHandler\bin\Release\MallHandler.exe

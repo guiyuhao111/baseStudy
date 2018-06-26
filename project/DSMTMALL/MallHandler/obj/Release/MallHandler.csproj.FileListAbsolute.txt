@@ -1,0 +1,202 @@
+G:\DSMTMALL\MallHandler\bin\Release\roslyn\csc.exe
+G:\DSMTMALL\MallHandler\bin\Release\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\DSMTMALL\MallHandler\bin\Release\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\DSMTMALL\MallHandler\bin\Release\roslyn\Microsoft.CodeAnalysis.dll
+G:\DSMTMALL\MallHandler\bin\Release\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\DSMTMALL\MallHandler\bin\Release\roslyn\Microsoft.CSharp.Core.targets
+G:\DSMTMALL\MallHandler\bin\Release\roslyn\Microsoft.VisualBasic.Core.targets
+G:\DSMTMALL\MallHandler\bin\Release\roslyn\System.Collections.Immutable.dll
+G:\DSMTMALL\MallHandler\bin\Release\roslyn\System.Reflection.Metadata.dll
+G:\DSMTMALL\MallHandler\bin\Release\roslyn\vbc.exe
+G:\DSMTMALL\MallHandler\bin\Release\roslyn\VBCSCompiler.exe
+G:\DSMTMALL\MallHandler\bin\Release\roslyn\VBCSCompiler.exe.config
+G:\DSMTMALL\MallHandler\bin\Release\MallHandler.exe.config
+G:\DSMTMALL\MallHandler\bin\Release\MallHandler.exe
+G:\DSMTMALL\MallHandler\bin\Release\MallHandler.pdb
+G:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.Core.Common.dll
+G:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.BLL.dll
+G:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.Model.dll
+G:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.MySQLDAL.dll
+G:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.dll
+G:\DSMTMALL\MallHandler\bin\Release\NPOI.dll
+G:\DSMTMALL\MallHandler\bin\Release\MySql.Data.dll
+G:\DSMTMALL\MallHandler\bin\Release\NPOI.OOXML.dll
+G:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.IDAL.dll
+G:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.DALFactory.dll
+G:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.Core.DBUtility.dll
+G:\DSMTMALL\MallHandler\bin\Release\ICSharpCode.SharpZipLib.dll
+G:\DSMTMALL\MallHandler\bin\Release\NPOI.OpenXmlFormats.dll
+G:\DSMTMALL\MallHandler\bin\Release\NPOI.OpenXml4Net.dll
+G:\DSMTMALL\MallHandler\bin\Release\System.Data.SQLite.dll
+G:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.Core.Common.pdb
+G:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.BLL.pdb
+G:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.Model.pdb
+G:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.MySQLDAL.pdb
+G:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.pdb
+G:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.IDAL.pdb
+G:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.DALFactory.pdb
+G:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.Core.DBUtility.pdb
+G:\DSMTMALL\MallHandler\obj\Release\MallHandler.csprojResolveAssemblyReference.cache
+G:\DSMTMALL\MallHandler\obj\Release\MallHandler.ProjectInstaller.resources
+G:\DSMTMALL\MallHandler\obj\Release\MallHandler.csproj.GenerateResource.Cache
+G:\DSMTMALL\MallHandler\obj\Release\MallHandler.exe
+G:\DSMTMALL\MallHandler\obj\Release\MallHandler.pdb
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\roslyn\csc.exe
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\roslyn\Microsoft.CodeAnalysis.dll
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\roslyn\Microsoft.CSharp.Core.targets
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\roslyn\Microsoft.VisualBasic.Core.targets
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\roslyn\System.Collections.Immutable.dll
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\roslyn\System.Reflection.Metadata.dll
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\roslyn\vbc.exe
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\roslyn\VBCSCompiler.exe
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\roslyn\VBCSCompiler.exe.config
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\MallHandler.exe.config
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\MallHandler.exe
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\MallHandler.pdb
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\DSMTMALL.Core.Common.dll
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.BLL.dll
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.Model.dll
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.MySQLDAL.dll
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\DSMTMALL.dll
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\NPOI.dll
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\MySql.Data.dll
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\NPOI.OOXML.dll
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.IDAL.dll
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.DALFactory.dll
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\Dapper.dll
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\ICSharpCode.SharpZipLib.dll
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\NPOI.OpenXmlFormats.dll
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\NPOI.OpenXml4Net.dll
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\DSMTMALL.Core.Common.pdb
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.BLL.pdb
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.Model.pdb
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.MySQLDAL.pdb
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\DSMTMALL.pdb
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.IDAL.pdb
+F:\ItemProject\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.DALFactory.pdb
+F:\ItemProject\DSMTMALL\MallHandler\obj\Release\MallHandler.csprojResolveAssemblyReference.cache
+F:\ItemProject\DSMTMALL\MallHandler\obj\Release\MallHandler.ProjectInstaller.resources
+F:\ItemProject\DSMTMALL\MallHandler\obj\Release\MallHandler.csproj.GenerateResource.Cache
+F:\ItemProject\DSMTMALL\MallHandler\obj\Release\MallHandler.exe
+F:\ItemProject\DSMTMALL\MallHandler\obj\Release\MallHandler.pdb
+H:\DSMTMALL\MallHandler\bin\Release\MallHandler.exe.config
+H:\DSMTMALL\MallHandler\bin\Release\MallHandler.exe
+H:\DSMTMALL\MallHandler\bin\Release\MallHandler.pdb
+H:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.Core.Common.dll
+H:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.BLL.dll
+H:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.Model.dll
+H:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.MySQLDAL.dll
+H:\DSMTMALL\MallHandler\bin\Release\NPOI.dll
+H:\DSMTMALL\MallHandler\bin\Release\MySql.Data.dll
+H:\DSMTMALL\MallHandler\bin\Release\NPOI.OOXML.dll
+H:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.IDAL.dll
+H:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.DALFactory.dll
+H:\DSMTMALL\MallHandler\bin\Release\Dapper.dll
+H:\DSMTMALL\MallHandler\bin\Release\ICSharpCode.SharpZipLib.dll
+H:\DSMTMALL\MallHandler\bin\Release\NPOI.OpenXmlFormats.dll
+H:\DSMTMALL\MallHandler\bin\Release\NPOI.OpenXml4Net.dll
+H:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.Core.Common.pdb
+H:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.BLL.pdb
+H:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.Model.pdb
+H:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.MySQLDAL.pdb
+H:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.IDAL.pdb
+H:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.DALFactory.pdb
+H:\DSMTMALL\MallHandler\obj\Release\MallHandler.csprojResolveAssemblyReference.cache
+H:\DSMTMALL\MallHandler\obj\Release\MallHandler.ProjectInstaller.resources
+H:\DSMTMALL\MallHandler\obj\Release\MallHandler.csproj.GenerateResource.Cache
+H:\DSMTMALL\MallHandler\obj\Release\MallHandler.exe
+H:\DSMTMALL\MallHandler\obj\Release\MallHandler.pdb
+H:\DSMTMALL\MallHandler\bin\Release\NLog.dll
+F:\DSMTMALL\MallHandler\bin\Release\MallHandler.exe.config
+F:\DSMTMALL\MallHandler\bin\Release\MallHandler.exe
+F:\DSMTMALL\MallHandler\bin\Release\MallHandler.pdb
+F:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.Core.Common.dll
+F:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.BLL.dll
+F:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.Model.dll
+F:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.MySQLDAL.dll
+F:\DSMTMALL\MallHandler\bin\Release\NPOI.dll
+F:\DSMTMALL\MallHandler\bin\Release\NLog.dll
+F:\DSMTMALL\MallHandler\bin\Release\MySql.Data.dll
+F:\DSMTMALL\MallHandler\bin\Release\NPOI.OOXML.dll
+F:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.IDAL.dll
+F:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.DALFactory.dll
+F:\DSMTMALL\MallHandler\bin\Release\Dapper.dll
+F:\DSMTMALL\MallHandler\bin\Release\ICSharpCode.SharpZipLib.dll
+F:\DSMTMALL\MallHandler\bin\Release\NPOI.OpenXmlFormats.dll
+F:\DSMTMALL\MallHandler\bin\Release\NPOI.OpenXml4Net.dll
+F:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.Core.Common.pdb
+F:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.BLL.pdb
+F:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.Model.pdb
+F:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.MySQLDAL.pdb
+F:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.IDAL.pdb
+F:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.DALFactory.pdb
+F:\DSMTMALL\MallHandler\obj\Release\MallHandler.csprojResolveAssemblyReference.cache
+F:\DSMTMALL\MallHandler\obj\Release\MallHandler.ProjectInstaller.resources
+F:\DSMTMALL\MallHandler\obj\Release\MallHandler.csproj.GenerateResource.Cache
+F:\DSMTMALL\MallHandler\obj\Release\MallHandler.exe
+F:\DSMTMALL\MallHandler\obj\Release\MallHandler.pdb
+E:\DSMTMALL\MallHandler\bin\Release\MallHandler.exe.config
+E:\DSMTMALL\MallHandler\bin\Release\MallHandler.exe
+E:\DSMTMALL\MallHandler\bin\Release\MallHandler.pdb
+E:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.Core.Common.dll
+E:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.BLL.dll
+E:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.Model.dll
+E:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.MySQLDAL.dll
+E:\DSMTMALL\MallHandler\bin\Release\NLog.dll
+E:\DSMTMALL\MallHandler\bin\Release\ServiceStack.Redis.dll
+E:\DSMTMALL\MallHandler\bin\Release\ServiceStack.Interfaces.dll
+E:\DSMTMALL\MallHandler\bin\Release\NPOI.dll
+E:\DSMTMALL\MallHandler\bin\Release\MySql.Data.dll
+E:\DSMTMALL\MallHandler\bin\Release\NPOI.OOXML.dll
+E:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.IDAL.dll
+E:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.DALFactory.dll
+E:\DSMTMALL\MallHandler\bin\Release\Dapper.dll
+E:\DSMTMALL\MallHandler\bin\Release\ServiceStack.Text.dll
+E:\DSMTMALL\MallHandler\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\DSMTMALL\MallHandler\bin\Release\NPOI.OpenXmlFormats.dll
+E:\DSMTMALL\MallHandler\bin\Release\NPOI.OpenXml4Net.dll
+E:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.Core.Common.pdb
+E:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.BLL.pdb
+E:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.Model.pdb
+E:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.MySQLDAL.pdb
+E:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.IDAL.pdb
+E:\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.DALFactory.pdb
+E:\DSMTMALL\MallHandler\obj\Release\MallHandler.csprojResolveAssemblyReference.cache
+E:\DSMTMALL\MallHandler\obj\Release\MallHandler.ProjectInstaller.resources
+E:\DSMTMALL\MallHandler\obj\Release\MallHandler.csproj.GenerateResource.Cache
+E:\DSMTMALL\MallHandler\obj\Release\MallHandler.exe
+E:\DSMTMALL\MallHandler\obj\Release\MallHandler.pdb
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\MallHandler.exe.config
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\MallHandler.exe
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\MallHandler.pdb
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\DSMTMALL.Core.Common.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.BLL.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.Model.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.MySQLDAL.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\NLog.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\ServiceStack.Redis.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\ServiceStack.Interfaces.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\NPOI.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\MySql.Data.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\NPOI.OOXML.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.IDAL.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.DALFactory.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\Dapper.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\ServiceStack.Text.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\NPOI.OpenXmlFormats.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\NPOI.OpenXml4Net.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\DSMTMALL.Core.Common.pdb
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.BLL.pdb
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.Model.pdb
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.MySQLDAL.pdb
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.IDAL.pdb
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\bin\Release\DSMTMALL.DB.DALFactory.pdb
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\obj\Release\MallHandler.csprojResolveAssemblyReference.cache
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\obj\Release\MallHandler.ProjectInstaller.resources
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\obj\Release\MallHandler.csproj.GenerateResource.Cache
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\obj\Release\MallHandler.exe
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\MallHandler\obj\Release\MallHandler.pdb

@@ -1,0 +1,220 @@
+﻿正在安装程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+没有 RunInstallerAttribute.Yes 的公共安装程序。在 G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe 程序集中应该可以找到“Yes”特性。
+正在提交程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+没有 RunInstallerAttribute.Yes 的公共安装程序。在 G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe 程序集中应该可以找到“Yes”特性。
+没有安装程序，因此移除 InstallState 文件。
+正在安装程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在回滚程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在回滚程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装服务 Service1...
+已成功安装服务 Service1。
+正在日志 Application 中创建 EventLog 源 Service1...
+正在提交程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装服务 Service1...
+正在日志 Application 中创建 EventLog 源 Service1...
+正在回滚程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在将事件日志还原到源 Service1 的前一状态。
+正在安装程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装服务 Service1...
+已成功安装服务 Service1。
+正在日志 Application 中创建 EventLog 源 Service1...
+正在提交程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装服务 MallService...
+已成功安装服务 MallService。
+正在日志 Application 中创建 EventLog 源 MallService...
+正在提交程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装服务 MallService...
+已成功安装服务 MallService。
+正在日志 Application 中创建 EventLog 源 MallService...
+正在提交程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装服务 MallService...
+已成功安装服务 MallService。
+正在日志 Application 中创建 EventLog 源 MallService...
+正在提交程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装服务 MallService...
+正在日志 Application 中创建 EventLog 源 MallService...
+正在回滚程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在将事件日志还原到源 MallService 的前一状态。
+正在安装程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装服务 MallService...
+正在日志 Application 中创建 EventLog 源 MallService...
+正在回滚程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在将事件日志还原到源 MallService 的前一状态。
+正在安装程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装服务 MallService...
+正在日志 Application 中创建 EventLog 源 MallService...
+正在回滚程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在将事件日志还原到源 MallService 的前一状态。
+正在安装程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装服务 MallService...
+已成功安装服务 MallService。
+正在日志 Application 中创建 EventLog 源 MallService...
+正在提交程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装服务 MallService...
+已成功安装服务 MallService。
+正在日志 Application 中创建 EventLog 源 MallService...
+正在提交程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装服务 MallService...
+正在日志 Application 中创建 EventLog 源 MallService...
+正在回滚程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在将事件日志还原到源 MallService 的前一状态。
+正在安装程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装服务 MallService...
+已成功安装服务 MallService。
+正在日志 Application 中创建 EventLog 源 MallService...
+正在提交程序集“G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = G:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装程序集“H:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = H:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = H:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
+正在安装服务 MallService...
+已成功安装服务 MallService。
+正在日志 Application 中创建 EventLog 源 MallService...
+正在提交程序集“H:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = H:\DSMTMALL\MallHandler\bin\Debug\MallHandler.InstallLog
+   assemblypath = H:\DSMTMALL\MallHandler\bin\Debug\MallHandler.exe
