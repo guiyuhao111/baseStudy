@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{01C13F4C-964B-4F7D-9CFC-4EEF87E52105}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DSMTMALL.DB.Model</RootNamespace>
+    <AssemblyName>DSMTMALL.DB.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="EntityHelper.cs" />
+    <Compile Include="M_AdminAction.cs" />
+    <Compile Include="M_AdminLog.cs" />
+    <Compile Include="M_AdminUser.cs" />
+    <Compile Include="M_Advertisement.cs" />
+    <Compile Include="M_Attribute.cs" />
+    <Compile Include="M_Brand.cs" />
+    <Compile Include="M_Cart.cs" />
+    <Compile Include="M_Category.cs" />
+    <Compile Include="M_CollectGoods.cs" />
+    <Compile Include="M_CpyGoods.cs" />
+    <Compile Include="M_ErrorLog.cs" />
+    <Compile Include="M_FareCarry.cs" />
+    <Compile Include="M_FareDeliery.cs" />
+    <Compile Include="M_FareTemplate.cs" />
+    <Compile Include="M_FileManage.cs" />
+    <Compile Include="M_Goods.cs" />
+    <Compile Include="M_GoodsAttr.cs" />
+    <Compile Include="M_GoodsCate.cs" />
+    <Compile Include="M_GoodsGallery.cs" />
+    <Compile Include="M_Modal.cs" />
+    <Compile Include="M_OrderGoods.cs" />
+    <Compile Include="M_OrderInfo.cs" />
+    <Compile Include="M_OrderTrade.cs" />
+    <Compile Include="M_Payment.cs" />
+    <Compile Include="M_ReBackGoods.cs" />
+    <Compile Include="M_ReBackOrder.cs" />
+    <Compile Include="M_ReBackTrade.cs" />
+    <Compile Include="M_Region.cs" />
+    <Compile Include="M_Roll.cs" />
+    <Compile Include="M_Shipping.cs" />
+    <Compile Include="M_Suppliers.cs" />
+    <Compile Include="M_TelPhoneCode.cs" />
+    <Compile Include="M_UserAddress.cs" />
+    <Compile Include="M_Users.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="NPOI">
+      <HintPath>..\DSMTMALL.Core.Common\Lib\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

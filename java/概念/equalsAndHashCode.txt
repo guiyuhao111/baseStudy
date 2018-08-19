@@ -1,0 +1,19 @@
+https://blog.csdn.net/u013679744/article/details/57074669
+导读 equals起源:
+	1.在其他语言中例如C++可以重载运算符可以使之在不同的对象里面有不同的含义,java语言没有重载运算符的规则,但有其解决方式,equals方法就是替代运算符重载的一种方式,像Comparable和Comparator
+	2.equals是Object类的方法,在自己定义的类中如果不重写equals方法将比较的是两个对象的引用是否相等
+	3.当用户重写equals方法是若当前对象有用户自定义类型的对象则需要为这些对象也重写equals方法
+equals源码:
+   public boolean equals(Object o) {
+        //判断当前对象与要比较的对象是否是同一个对象
+        if (this == o) return true;
+        //判断要比较的对象是否为null并且当前对象的类型与要比较的对象的类型是否相同
+        if (o == null || getClass() != o.getClass()) return false;
+        //将目标对象强转为当前对象
+        EqualsDemo that = (EqualsDemo) o;
+        //如果两个对象的属性相等则equals方法返回true
+        return count == that.count &&
+                Objects.equals(name, that.name);
+    }
+
+1.HashCode:重写equals方法必须重写hashcode方法是针对散列表而言

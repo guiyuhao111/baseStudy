@@ -1,0 +1,56 @@
+1.打开数据库定时服务:
+	---1.1:查询服务器定时器状态:       SHOW VARIABLES LIKE 'event_scheduler';
+	---1.2:打开服务器定时器:           SET GLOBAL event_scheduler = ON;
+
+2.创建存储过程:
+
+
+
+CREATE PROCEDURE canselOrder ()
+BEGIN
+	UPDATE M_Goods G
+INNER JOIN (
+	SELECT
+		OG.GoodsID AS GoodsID,
+		SUM(OG.BuyNumber) AS BuyNumber
+	FROM
+		(
+			SELECT
+				O.OrderID,
+				O.AddTime
+			FROM
+				M_OrderInfo O
+			WHERE
+				O.OrderStatus = 0
+			AND O.PayStatus = 0
+			AND DATE_ADD(O.AddTime, INTERVAL 2 HOUR) < NOW()
+		) T1
+	LEFT JOIN M_OrderGoods OG ON OG.OrderID = T1.OrderID
+	GROUP BY
+		OG.GoodsID
+) T2 ON G.GoodsID = T2.GoodsID
+SET G.GoodsNumber = G.GoodsNumber + T2.BuyNumber,
+ G.SaleNumber = G.SaleNumber - T2.BuyNumber;
+
+UPDATE M_OrderInfo O
+SET OrderStatus = 2,
+ PayStatus = 0
+WHERE
+	O.OrderStatus = 0
+AND O.PayStatus = 0
+AND DATE_ADD(O.AddTime, INTERVAL 2 HOUR) < NOW();
+
+
+END
+
+
+
+
+
+3.开启定时服务:
+CREATE EVENT IF NOT EXISTS cancelOrderEvent
+ON SCHEDULE EVERY 30 SECOND
+ON COMPLETION PRESERVE DO
+CALL canselOrder();
+
+4.打开定时器:ALTER EVENT cancelOrderEvent ON  COMPLETION PRESERVE ENABLE;

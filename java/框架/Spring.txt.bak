@@ -1,0 +1,5 @@
+1.Spring是一款轻量级的简化企业级应用开发的一款框架
+2.Spring的核心是SpringAop和SpringIoc
+3.SpringAop是一种代理模式底层是通过CGlib和java动态代理来实现的,核心是想是将业务代码和非业务代码分离开来
+4.SpringIoc是用来管理对象和程序之间的依赖关系,可以降低程序和代码之间的耦合度,ioc的核心是ioc容器,ioc容器在DispacherServlet init方法时初始化,其本质时一个Map
+5.Spring事务管理可以说是SpringAop的扩展,可以在业务层去处理事务

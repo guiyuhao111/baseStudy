@@ -1,0 +1,14 @@
+1.redis是一个内存数据库，支持五种数据库存储类型 String Hash list set zset，
+因为数据都存储在内存当中所以有着高效的读写速率读速率约为每秒110000次写速率约为每秒81000次所有的读写操作都为单线程来完成
+value最大可存入512M的数据
+2.redis三种用途:
+	2.1:缓存数据
+	2.2:消息队列
+	2.3:发布订阅
+3.spring集成redis
+	是java提供的redis客户端提供了redis的各种操作
+	1.spring集成redis应该提供哪些配置或重写哪些类?
+	2.我认为spring不是直接集成redis而是集成的是jedis,jedis是java题提供的redis客户端用于执行redis的各种操作
+	spring集成redis应该提供redis的连接池配置,redisTemplate redisCacheManager,redisTemplate提供了对redis的各种操作
+	redisCacheManager主要是对缓存的管理，比如说缓存的过期时间
+	

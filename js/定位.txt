@@ -1,0 +1,3 @@
+position:static:此种元素无特殊定位
+position:fixed:相对于浏览器窗口的定位
+position:relative:相对于其正常位置的定位

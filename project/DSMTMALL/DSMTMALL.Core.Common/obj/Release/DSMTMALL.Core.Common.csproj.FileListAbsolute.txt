@@ -1,0 +1,115 @@
+D:\初始化项目文件DSMTMALL\DSMTMALL\DSMTMALL.Core.Common\bin\Release\DSMTMALL.Core.Common.dll
+D:\初始化项目文件DSMTMALL\DSMTMALL\DSMTMALL.Core.Common\bin\Release\DSMTMALL.Core.Common.pdb
+D:\初始化项目文件DSMTMALL\DSMTMALL\DSMTMALL.Core.Common\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\初始化项目文件DSMTMALL\DSMTMALL\DSMTMALL.Core.Common\bin\Release\MySQL.Data.dll
+D:\初始化项目文件DSMTMALL\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.dll
+D:\初始化项目文件DSMTMALL\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OOXML.dll
+D:\初始化项目文件DSMTMALL\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OpenXml4Net.dll
+D:\初始化项目文件DSMTMALL\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OpenXmlFormats.dll
+D:\初始化项目文件DSMTMALL\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.csprojResolveAssemblyReference.cache
+D:\初始化项目文件DSMTMALL\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.dll
+D:\初始化项目文件DSMTMALL\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.pdb
+C:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\DSMTMALL.Core.Common.dll
+C:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\DSMTMALL.Core.Common.pdb
+C:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\MySQL.Data.dll
+C:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.dll
+C:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OOXML.dll
+C:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OpenXml4Net.dll
+C:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OpenXmlFormats.dll
+C:\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.csprojResolveAssemblyReference.cache
+C:\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.dll
+C:\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.pdb
+G:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\DSMTMALL.Core.Common.dll
+G:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\DSMTMALL.Core.Common.pdb
+G:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\ICSharpCode.SharpZipLib.dll
+G:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\MySQL.Data.dll
+G:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.dll
+G:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OOXML.dll
+G:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OpenXml4Net.dll
+G:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OpenXmlFormats.dll
+G:\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.dll
+G:\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.pdb
+G:\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.csprojResolveAssemblyReference.cache
+D:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\DSMTMALL.Core.Common.dll
+D:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\DSMTMALL.Core.Common.pdb
+D:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\MySql.Data.dll
+D:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.dll
+D:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OOXML.dll
+D:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OpenXml4Net.dll
+D:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OpenXmlFormats.dll
+D:\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.dll
+D:\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.pdb
+C:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\Dapper.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.Core.Common\bin\Release\DSMTMALL.Core.Common.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.Core.Common\bin\Release\DSMTMALL.Core.Common.pdb
+F:\ItemProject\DSMTMALL\DSMTMALL.Core.Common\bin\Release\Dapper.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.Core.Common\bin\Release\ICSharpCode.SharpZipLib.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.Core.Common\bin\Release\MySql.Data.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OOXML.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OpenXml4Net.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OpenXmlFormats.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.csprojResolveAssemblyReference.cache
+F:\ItemProject\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.dll
+F:\ItemProject\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.pdb
+H:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\DSMTMALL.Core.Common.dll
+H:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\DSMTMALL.Core.Common.pdb
+H:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\Dapper.dll
+H:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\ICSharpCode.SharpZipLib.dll
+H:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\MySql.Data.dll
+H:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.dll
+H:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OOXML.dll
+H:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OpenXml4Net.dll
+H:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OpenXmlFormats.dll
+H:\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.csprojResolveAssemblyReference.cache
+H:\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.dll
+H:\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.pdb
+H:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NLog.dll
+F:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\DSMTMALL.Core.Common.dll
+F:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\DSMTMALL.Core.Common.pdb
+F:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\Dapper.dll
+F:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\ICSharpCode.SharpZipLib.dll
+F:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\MySql.Data.dll
+F:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NLog.dll
+F:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.dll
+F:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OOXML.dll
+F:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OpenXml4Net.dll
+F:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OpenXmlFormats.dll
+F:\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.dll
+F:\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.pdb
+E:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\DSMTMALL.Core.Common.dll
+E:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\DSMTMALL.Core.Common.pdb
+E:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\Dapper.dll
+E:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\MySql.Data.dll
+E:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NLog.dll
+E:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.dll
+E:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OOXML.dll
+E:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OpenXml4Net.dll
+E:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OpenXmlFormats.dll
+E:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\ServiceStack.Common.dll
+E:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\ServiceStack.Interfaces.dll
+E:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\ServiceStack.Redis.dll
+E:\DSMTMALL\DSMTMALL.Core.Common\bin\Release\ServiceStack.Text.dll
+E:\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.dll
+E:\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.pdb
+E:\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.csprojResolveAssemblyReference.cache
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.Core.Common\bin\Release\DSMTMALL.Core.Common.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.Core.Common\bin\Release\DSMTMALL.Core.Common.pdb
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.Core.Common\bin\Release\Dapper.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.Core.Common\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.Core.Common\bin\Release\MySql.Data.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NLog.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OOXML.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OpenXml4Net.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.Core.Common\bin\Release\NPOI.OpenXmlFormats.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.Core.Common\bin\Release\ServiceStack.Common.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.Core.Common\bin\Release\ServiceStack.Interfaces.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.Core.Common\bin\Release\ServiceStack.Redis.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.Core.Common\bin\Release\ServiceStack.Text.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.csprojResolveAssemblyReference.cache
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.dll
+C:\Users\gui yuhao\Desktop\project\DSMTMALL\DSMTMALL.Core.Common\obj\Release\DSMTMALL.Core.Common.pdb

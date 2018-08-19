@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="DSMT.XF.WebService" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="DSMT.XF.WebService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="DSMT.XF.WebService">
+      <s:element name="QueryUserInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getQueryUserInfoEntity" type="tns:GetQueryUserInfoEntity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetQueryUserInfoEntity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="OpenID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sign" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TimeStamp" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="QueryUserInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QueryUserInfoResult" type="tns:BackQueryUserInfoEntity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="BackQueryUserInfoEntity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RealName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserGender" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserPhone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DptNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DptName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CpySysID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CpyName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sign" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TimeStamp" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="QueryAccBalance">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getQueryAccBalanceEntity" type="tns:GetQueryAccBalanceEntity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetQueryAccBalanceEntity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="OpenID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sign" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TimeStamp" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="QueryAccBalanceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QueryAccBalanceResult" type="tns:BackQueryAccBalanceEntity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="BackQueryAccBalanceEntity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CpySysID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CpyName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccSubsidy" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccMoney" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccStatus" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sign" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TimeStamp" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="PayAccBalance">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getPayAccBalanceEntity" type="tns:GetPayAccBalanceEntity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetPayAccBalanceEntity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="OpenID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserPhone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UnifyOrderNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderMoney" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sign" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TimeStamp" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="PayAccBalanceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PayAccBalanceResult" type="tns:BackPayAccBalanceEntity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="BackPayAccBalanceEntity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UnifyOrderNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderMoney" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CpySysID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CpyName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TradeNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TradeStatus" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TradeTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sign" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TimeStamp" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="QueryTradeStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getQueryTradeStatusEntity" type="tns:GetQueryTradeStatusEntity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetQueryTradeStatusEntity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CpySysID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UnifyOrderNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sign" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TimeStamp" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="QueryTradeStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QueryTradeStatusResult" type="tns:BackQueryTradeStatusEntity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="BackQueryTradeStatusEntity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="TradeTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TradeStatus" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sign" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TimeStamp" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="QueryUserInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryUserInfo" />
+  </wsdl:message>
+  <wsdl:message name="QueryUserInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryUserInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryAccBalanceSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryAccBalance" />
+  </wsdl:message>
+  <wsdl:message name="QueryAccBalanceSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryAccBalanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="PayAccBalanceSoapIn">
+    <wsdl:part name="parameters" element="tns:PayAccBalance" />
+  </wsdl:message>
+  <wsdl:message name="PayAccBalanceSoapOut">
+    <wsdl:part name="parameters" element="tns:PayAccBalanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryTradeStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryTradeStatus" />
+  </wsdl:message>
+  <wsdl:message name="QueryTradeStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryTradeStatusResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DSMT_TAE_ServiceSoap">
+    <wsdl:operation name="QueryUserInfo">
+      <wsdl:input message="tns:QueryUserInfoSoapIn" />
+      <wsdl:output message="tns:QueryUserInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryAccBalance">
+      <wsdl:input message="tns:QueryAccBalanceSoapIn" />
+      <wsdl:output message="tns:QueryAccBalanceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PayAccBalance">
+      <wsdl:input message="tns:PayAccBalanceSoapIn" />
+      <wsdl:output message="tns:PayAccBalanceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryTradeStatus">
+      <wsdl:input message="tns:QueryTradeStatusSoapIn" />
+      <wsdl:output message="tns:QueryTradeStatusSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DSMT_TAE_ServiceSoap" type="tns:DSMT_TAE_ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="QueryUserInfo">
+      <soap:operation soapAction="DSMT.XF.WebService/QueryUserInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryAccBalance">
+      <soap:operation soapAction="DSMT.XF.WebService/QueryAccBalance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PayAccBalance">
+      <soap:operation soapAction="DSMT.XF.WebService/PayAccBalance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryTradeStatus">
+      <soap:operation soapAction="DSMT.XF.WebService/QueryTradeStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DSMT_TAE_ServiceSoap12" type="tns:DSMT_TAE_ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="QueryUserInfo">
+      <soap12:operation soapAction="DSMT.XF.WebService/QueryUserInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryAccBalance">
+      <soap12:operation soapAction="DSMT.XF.WebService/QueryAccBalance" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PayAccBalance">
+      <soap12:operation soapAction="DSMT.XF.WebService/PayAccBalance" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryTradeStatus">
+      <soap12:operation soapAction="DSMT.XF.WebService/QueryTradeStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DSMT_TAE_Service">
+    <wsdl:port name="DSMT_TAE_ServiceSoap" binding="tns:DSMT_TAE_ServiceSoap">
+      <soap:address location="http://192.168.1.45/DSMT_TAE_Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DSMT_TAE_ServiceSoap12" binding="tns:DSMT_TAE_ServiceSoap12">
+      <soap12:address location="http://192.168.1.45/DSMT_TAE_Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,175 @@
+﻿/*引用样式*/
+/*@import url('../bootstrap.min.css');*/
+
+/*通用*/
+
+h1{font-size:24px;}
+.modal{overflow-y:auto;}/*.modal-open{overflow:auto;}*/
+.container{width:100%;min-width:1024px;}
+.toHide{display:none;}
+.btn a{color:white;text-decoration:none;}
+.logo{display:inline-block;}
+.logo h1{font-size:24px;margin:10px 15px;}
+.my-content-wrapper{float:left;width:100%;}
+.my-footer{clear:both;font-size:13px;padding:8px 0 5px 0;text-align:center;color:#ccc;background-color:#333;}
+.tdMark{padding:0px 1px;color:#ffffff;font-size:12px;background-color:#ff6666;border-radius:2px;}
+.aMark{font-weight:normal;color:#333333;text-decoration:none;}
+.aMark:hover,.aMark:active{color:#000000;text-decoration:none;}
+.mark{padding:0px 2px;color:#ffffff;font-size:12px;background-color:#c40000;border-radius:4px;}
+.unmark{padding:0px 2px;color:#ffffff;font-size:12px;background-color:#999999;border-radius:4px;}
+.width-100{width:100%;}
+.pointer{cursor:pointer;}
+
+
+
+
+/*内容窗体*/
+.my-body{width:100%;margin:0px ;padding:0px;}
+.my-content{margin-left:235px;margin-top:0px;min-height:600px;padding:20px 20px 0 20px;background-color:#ffffff;overflow-x:hidden;min-width:789px}
+.my-h4-dpt{font-weight:500;}
+.my-h4{font-weight:500;line-height:30px;}
+.user-photo{width:240px;height:240px;}
+/*.marign-5px {margin:-10px 0px 10px 0px; }*/
+.pull-right {
+    margin:5px 0px 10px 0px; 
+}
+
+/*多选框权限分配框样式*/
+/* 效果CSS开始 */
+.selectbox{width:500px;height:220px;margin:0px auto;}
+.selectbox div{float:left;}
+.selectbox .select-bar{padding:0 20px;}
+.selectbox .select-bar select{width:150px;height:200px;border:1px #A0A0A4 solid;padding:4px;font-size:14px;font-family:"microsoft yahei";}
+.btn-bar{}
+.btn-bar p{margin-top:16px;}
+.btn-bar p .btn{width:50px;height:30px;cursor:pointer;font-family:simsun;font-size:14px;}
+/* 效果CSS结束 */
+
+/*自定义弹窗的关闭样式*/
+.modal-close {
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+}
+a:link,a:visited{  text-decoration:none;  /*超链接无下划线*/ }
+
+/*bootstrap 模态弹窗套弹窗出现返回第一个弹窗无法进行下拉问题，使用样式解决*/
+.modal{ overflow-y: auto; } /*.modal-open { overflow: auto; }*/
+
+.my-overflow-title{
+    width:150px;
+}
+.tb-img {
+    width:80px;
+    height:80px;
+}
+.tb-img img{
+    width:80px;
+    height:80px;
+}
+.my-overflow-desc{
+    width:100px;
+    height:20px;
+}
+
+/*时间选择器的框最大宽度设置*/
+.time-css input{max-width:140px;}
+
+/*列表页宽度设置*/
+.info th{text-align:center}
+.info-val{text-align:center;}
+.width_2{width:2%;min-width:2px;max-width:5px; }
+.width_3{width:3%;min-width:4px;max-width:7px;}
+.width_5{width:5%;min-width:5px;max-width:10px;}
+.width_8{width:8%;min-width:8px;max-width:14px;}
+.width_10{width:10%;min-width:10px;max-width:16px;}
+.width_12{width:12%;min-width:12px;max-width:18px;} .width_12 textarea{height:80px;}
+.width_15{width:15%;min-width:15px;max-width:25px;}
+.width_min_100{min-width:100px;}
+.width_min_150{min-width:150px;}
+.width_min_250{min-width:250px;}
+/*配送方式设置*/
+.fare-table-list{border:solid;border-width:1px;margin:30px;border-color:#b2bac2}
+.fare-table-list caption{background-color:#e8f2ff}
+.fare-table{border:solid;border-width:1px;margin-bottom:0px;}
+.fare-title{ padding-left:5px; font-size:14px;}
+.fare-title div{padding-right:10px;float:right}
+.fare-title font{padding-right:15px;}
+.fare-title a{margin-right:5px;text-decoration:none}
+.font-center td{text-align:center;}
+
+/*配送方式编辑*/
+.editor-table{ width:100%}
+.editor-table caption{color:#A6A6A6}
+.editor-table .editor-default-td {background-color:#e8f2ff}
+.editor-table .editor-default-td input{ max-width:65px;display:inline-block;height:25px;font-size:12px;background-color:#ffffff}
+.editor-table th{text-align:center}
+.editor-table th:first-child{width:30% }
+.editor-table th:last-child{width:10%}
+.editor-table tr a{float:right;text-decoration:none}
+
+/*在线编辑器图册*/
+.editor-img-list{
+    width:100%;background-color:#ffffff;
+}
+.editor-img-list div{
+    width:200px;height:200px;display:inline-block;margin:5px 5px 5px 5px;
+}
+
+.editor-img-list img{
+   display:inline-block;width:100%
+}
+
+/*用户修改密码*/
+.admin_pwd_row >.row{
+    margin:30px 0px 30px 0px;
+}
+
+.main-content a{
+    color:#000000;
+}
+
+/*提示框弹框样式*/
+#tip {
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+    z-index: 9999;
+    min-width: 200px;
+    text-align: center;
+}
+
+/*导航栏*/
+.li_a{float:right;display:inline-block;} .page-heading .breadcrumb .li_a a{ float:right;color:#f58315 }.li_a > a+a:after{padding: 0 5px 0 5px;color: #ccc;content: "/\00a0";font-size:1em;}
+
+
+/*订单管理退货操作*/
+.order_back_css{  width:100%;display:inline-block} .order_back_css li >span:first-child{display:inline-block; width:20px;}
+.order_back_css li img{
+    width:80px;
+    display:inline-block;
+    border-radius:50%;
+}
+.order_back_css li> div{
+    display:inline-block;
+    vertical-align:middle;
+    max-width:350px;
+}
+.order_back_css li> div> span {
+    display:inline-block;margin:5px 10px 5px 0px;min-width:110px;
+}
+.order_back_css li >div input{
+     width:100%;min-width:220px;max-width:250px;
+}
+.order_back_css li> div h4 {
+     display:block;display: -webkit-box;
+     -webkit-box-orient: vertical;
+     -webkit-line-clamp: 1;
+     overflow: hidden;
+}
+

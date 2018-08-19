@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9A8F2F9F-EADD-40AB-8A5E-4A65B92ECDFA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DSMTMALL.DB.BLL</RootNamespace>
+    <AssemblyName>DSMTMALL.DB.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MB_Bll.cs" />
+    <Compile Include="MY_Bll.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DSMTMALL.Core.Common\DSMTMALL.Core.Common.csproj">
+      <Project>{d43e5206-7a2e-459f-8b84-d4bbd00e1e50}</Project>
+      <Name>DSMTMALL.Core.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DSMTMALL.DB.DALFactory\DSMTMALL.DB.DALFactory.csproj">
+      <Project>{0a0d526a-0bb8-4fa6-8ccf-46feb5e42f8d}</Project>
+      <Name>DSMTMALL.DB.DALFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DSMTMALL.DB.IDAL\DSMTMALL.DB.IDAL.csproj">
+      <Project>{620b5cb2-d26e-4d2f-86ae-6ea687257606}</Project>
+      <Name>DSMTMALL.DB.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DSMTMALL.DB.Model\DSMTMALL.DB.Model.csproj">
+      <Project>{01c13f4c-964b-4f7d-9cfc-4eef87e52105}</Project>
+      <Name>DSMTMALL.DB.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
